@@ -26,11 +26,6 @@ export default function Navbar(props) {
                 Home
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link px-3 fw-medium" aria-current="page" href="/about">
-                {props.aboutText}
-              </a>
-            </li>
           </ul>
           <div className="d-flex align-items-center">
             <div className={`form-check form-switch me-3 ${props.mode === 'dark' ? 'text-light' : 'text-dark'}`}>
