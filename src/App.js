@@ -20,7 +20,7 @@ function App() {
   return (
     <div className={`app ${mode}`}>
       <Navbar 
-        title="TextUtils" 
+        title="Textify" 
         aboutText="About TextUtils" 
         mode={mode} 
         toggleMode={toggleMode}
